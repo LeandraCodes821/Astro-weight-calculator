@@ -20,7 +20,7 @@ var planets = [
             option.innerText = planet[0];
             populateDropdown.appendChild(option)
         });
-    populateDropdown();
+    //populateDropdown();
         
     function calculateWeight(weight, planetName) { 
         for(var i = 0; i < planets.length; i++){
