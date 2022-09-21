@@ -14,7 +14,7 @@ var planets = [
     ['Sun', 27.9] 
 ];
     var populateDropdown = document.getElementById("planets");
-        planets.foreach(planet => {
+        planets.forEach(planet => {
             var option = document.createElement("option");
             option.value = planet[0];
             option.innerText = planet[0];
@@ -30,14 +30,11 @@ var planets = [
             }
         }
         function handleClickEvent(e) {
-            var userWeight = 
-        parseInt(document.getElementById(userWeight).value);
-            var planetName = 
-            document.querySelectorAll("planets option")
-            [document.getElementById("planets").selectedIndex].textContent;
+            var userWeight = parseInt(document.getElementById("user-weight").value);
+            var planetName = document.getElementById("planets").value
             var result = calculateWeight(userWeight, planetName);
-            document.getElementById("output").innerHTML = "If you were on" + planetName + "you would weigh" + result + "lbs!";
+            document.getElementById("output").innerHTML = "If you were on " + planetName + ", you would weigh " + result + "lbs!";
         } 
-        document.getElementById("calculatebutton").addEventListener("click",handleClickEvent);
+        //document.getElementById("calculatebutton").addEventListener("click",handleClickEvent);
         
     

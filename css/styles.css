@@ -1,0 +1,46 @@
+body { 
+    background-image: url('https://images8.alphacoders.com/503/503792.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: inherit;
+  }
+  #user-weight {
+    height: 26px;
+    width: 125px;
+    border: 2px solid #BE93C5;
+  }
+  #calculate-button {
+    height: 30px;
+    width: 125px;
+    font-family: "Audiowide", sans-serif;
+    color: #302b63;
+    background-color: #7F7FD5;
+  }
+#testing {
+    /* position: relative;
+    margin: 0 auto;
+    height: auto;
+    border-left: 40px; 
+    display: inline; */
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: red; 
+    padding: 15px;
+    /* border: 2px solid #BE93C5; */
+}
+h4 {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: hsl(30, 100%, 50%);
+    font-size: 60px;
+}
+p {
+    color:hsl(30, 100%, 50%);
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+::placeholder {
+    color: #7610cf;
+    font-family: "Audiowide", sans-serif;
+}
