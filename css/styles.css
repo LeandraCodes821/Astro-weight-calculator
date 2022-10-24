@@ -5,7 +5,7 @@ body {
     background-size: inherit;
   }
   #user-weight {
-    height: 26px;
+    height: 30px;
     width: 125px;
     border: 2px solid #BE93C5;
   }
@@ -27,6 +27,10 @@ body {
     color: red; 
     padding: 15px;
     /* border: 2px solid #BE93C5; */
+}
+select, option {
+  width: 125px;
+  height: 30px;
 }
 h4 {
     text-align: center;
