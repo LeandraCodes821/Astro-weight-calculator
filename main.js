@@ -36,5 +36,14 @@ var planets = [
             document.getElementById("output").innerHTML = "If you were on " + planetName + ", you would weigh " + result + "lbs!";
         } 
         //document.getElementById("calculatebutton").addEventListener("click",handleClickEvent);
-        
-    
+        //Creating a function for the check to remove Pluto
+        function removePluto(e) {
+            let checkBox = document.getElementById("remove-pluto");
+            let text = document.getElementsByTagName('option').innerText = "Pluto";
+            if (checkBox.checked == true){
+                this.text.style.display = "flex";
+              } else {
+                 style.display = "none";
+              }            
+              console.log(text);
+        }   
