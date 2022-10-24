@@ -1,8 +1,8 @@
 body { 
-    background-image: url('https://images8.alphacoders.com/503/503792.jpg'); 
+    background-image: url('https://media1.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=ecf05e47i24s0yfe6xkr751j1zec32jyybib687fa1anlmzw&rid=giphy.gif&ct=g'); 
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: inherit;
+    /* background-attachment: fixed; */
+    background-size: cover;
   }
   #user-weight {
     height: 30px;
